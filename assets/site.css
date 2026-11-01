@@ -37,7 +37,7 @@ body::before{
     radial-gradient(50% 45% at 82% 6%,rgba(154,134,255,.16),transparent 70%);
   pointer-events:none;z-index:0;
 }
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 h1,h2,h3{letter-spacing:-.02em;line-height:1.15;margin:0}
@@ -214,6 +214,7 @@ section{position:relative;z-index:1}
 }
 .shot-row::-webkit-scrollbar{height:8px}
 .shot-row::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14);border-radius:99px}
+figure{margin:0}
 .shot{scroll-snap-align:center;text-align:center}
 .shot .frame{
   border-radius:26px;padding:6px;border:1px solid var(--line-strong);
